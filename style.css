@@ -1,0 +1,65 @@
+#all-body {
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: white;
+    
+}
+
+#all-blank {
+    background-color: rgb(188, 198, 218);
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    border-radius: 11.8%;
+}
+
+#contato {
+    font-family: black 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    margin-right: 1.3em;
+    text-align: left;
+    
+   
+}
+
+h1 {
+    text-align: left;
+    font-family: black 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+
+header {
+    background-color: rgb(88, 158, 250);
+  
+
+}
+
+p,
+ul,h3{
+    text-align: justify;
+    font-family: black 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+}
+
+h2 {
+    text-align: left;
+    font-family: black 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-left: 0.9em;
+    margin-right: 1.3em;
+}
+
+footer {
+    background-color: rgb(88, 158, 250);
+    margin-top: 0.5em;
+}
+hr{
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+}
