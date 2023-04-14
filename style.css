@@ -1,27 +1,63 @@
-
-
-#main{
-position: relative;
-text-align: justify;
-border: 1px solid rgb(0,0,0);
-margin: 0px 50px 0px 50px;
-
+body{
+    margin: 0;
 }
-#main h1{
-    margin-top: 0;
-}
-h1, h2, p, hr{
-    margin: 10px 20px 10px 20px;   
-}
-#contact p{
-    padding-bottom: 10px;
-}
-
-#contact, #foot{
+#back-detail {
     background-color: rgb(88, 158, 250);
+border-radius: 20%;
+margin-left: 50px;
+margin-right: 50px;
+
 }
 
-#foot{
+#main {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-align: justify;
+    margin: 50px 100px 50px 100px;
+   
+}
+
+h1,
+h2,
+p,
+hr {
+    margin: 15px 15px 15px 15px;
+
+}
+
+#contact p,
+h1 {
+    color: rgb(255, 255, 255);
     padding: 10px;
+
 }
 
+.topics {
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+}
+
+#contact,
+#foot {
+    background-color: rgb(88, 158, 250);
+    border-radius: 10px;
+}
+
+header,
+section,
+footer {
+    position: relative;
+    margin: 20px 20px;
+
+}
+
+header:hover,
+section:hover {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(74, 91, 114);
+    box-shadow: 0 20px 20px 0 rgb(86, 94, 104);
+   
+}
