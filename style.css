@@ -1,36 +1,28 @@
-body{
+body {
     margin: 0;
-}
-#back-detail {
-    background-color: rgb(88, 158, 250);
-border-radius: 20%;
-margin-left: 50px;
-margin-right: 50px;
-
+    background-color: rgb(223, 221, 221);
 }
 
 #main {
     background-color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     text-align: justify;
-    margin: 50px 100px 50px 100px;
-   
+    margin: 50px 250px 50px 250px;
+    box-shadow: 0 2px 3px 2px gray;
 }
 
 h1,
 h2,
 p,
 hr {
-    margin: 15px 15px 15px 15px;
-
+    margin: 0px 15px 15px 15px;
 }
 
 #contact p,
 h1 {
     color: rgb(255, 255, 255);
     padding: 10px;
-
 }
 
 .topics {
@@ -40,24 +32,10 @@ h1 {
 
 #contact,
 #foot {
-    background-color: rgb(88, 158, 250);
-    border-radius: 10px;
+    background-color: rgb(88, 158, 250);   
+}
+#foot{
+    padding: 30px;
 }
 
-header,
-section,
-footer {
-    position: relative;
-    margin: 20px 20px;
 
-}
-
-header:hover,
-section:hover {
-    position: relative;
-    margin: 10px;
-    border-radius: 10px;
-    border: 0.5px solid rgb(74, 91, 114);
-    box-shadow: 0 20px 20px 0 rgb(86, 94, 104);
-   
-}
